@@ -2,8 +2,8 @@
 
 This is a summary of what was found in the **stock vendor firmware** of the
 OWE3000 (board CPE-AX3000 V3.1, MediaTek MT7981B) during the process of
-porting OpenWrt to it. It is published so that other owners of this device,
-and of the same white-label board sold under other names, can make an
+porting OpenWrt to it. We are publishing this so that other owners of this
+device, and of the same white-label board sold under other names, can make an
 informed decision about running the stock firmware.
 
 **Short version: do not trust the stock firmware on an untrusted network.
@@ -13,6 +13,28 @@ Live credentials found in the firmware (password hashes, the cracked root
 password, a hardcoded Wi-Fi PSK, and a mesh key) are intentionally **redacted**
 here. The point is the class of problem, not handing out working secrets for
 units still running stock.
+
+## Responsible disclosure
+
+A full, unredacted report is available to the manufacturer and to legitimate
+researchers on request. In keeping with responsible-disclosure practice, no
+technical details or credentials have been published here, and the unredacted
+report has not been sent over any insecure channel.
+
+The manufacturer has been contacted through their official channels with a
+brief, findings-free notification offering the detailed report to the
+appropriate security or engineering contact:
+
+- the official contact form at https://ineauto.com/pages/contact
+- the support email printed in the product insert (ineauto@outlook.com)
+
+The notification deliberately contains no vulnerability details; the full
+report will be shared only once a legitimate point of contact responds.
+
+**Disclosure status:** contacted 2026-11-16 — awaiting response. The
+redacted summary below was published in parallel; because it contains no
+working credentials, it exposes no unit while the vendor is given time to
+respond.
 
 ---
 
@@ -191,3 +213,19 @@ without being checked against the device.
 
 The credential findings were cracked/confirmed locally during the review and
 are deliberately omitted from this public document.
+
+
+---
+
+## Contact / about the author
+
+This review and the OpenWrt port were done by **Jason Bunston**
+(Elite Conceptual Consulting Ltd.).
+
+- Website: https://eliteconceptual.com
+- Email: jbunston@eliteconceptual.com
+- LinkedIn: https://www.linkedin.com/in/jasonbunston/
+- Book a 30-minute consulting call: https://calendar.app.google/6eEY9v4XAqnKiCJdA
+
+For the full unredacted report (manufacturer or legitimate researchers),
+please reach out by email.
