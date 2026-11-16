@@ -136,19 +136,25 @@ sf write 0x46000000 0x50000 0xb0000
 
 ## Photos
 
-Place images in `img/` and reference them here:
+### Enclosure and ports
 
-| File | Shows |
-|---|---|
-| `img/owe3000_enclosure.jpg` | Enclosure with six antennas (ruler for scale) |
-| `img/owe3000_ports.jpg` | Port row: LAN1 2.5G PoE, 7-seg display, LAN2/WAN 1G PoE, DC |
-| `img/owe3000_label.jpg` | Bottom label (ports, modes, LED codes) |
-| `img/owe3000_board.jpg` | PCB top (CPE-AX3000 V3.1) |
-| `img/owe3000_uart_header.jpg` | Unlabelled 4-pin UART header |
-| `img/owe3000_uart_hookup.jpg` | USB-TTL adapter connected (GND/TX/RX) |
-| `img/serial_app.jpg` | Serial terminal software used (Serial.app) |
+![Enclosure with six antennas](img/owe3000_enclosure.jpg)
 
----
+![Port row: LAN1 2.5G PoE, 7-seg display, LAN2/WAN 1G PoE, DC](img/owe3000_ports.jpg)
+
+![Bottom label (ports, modes, LED codes)](img/owe3000_label.jpg)
+
+### Board
+
+![PCB top (CPE-AX3000 V3.1)](img/owe3000_board.jpg)
+
+### Serial / UART
+
+![Unlabelled 4-pin UART header](img/owe3000_uart_header.jpg)
+
+![USB-TTL adapter connected (GND/TX/RX)](img/owe3000_uart_hookup.jpg)
+
+![Serial terminal software (Serial.app)](img/serial_app.jpg)
 
 ## Notes
 
