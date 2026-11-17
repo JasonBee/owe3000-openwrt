@@ -225,7 +225,7 @@ This review and the OpenWrt port were done by **Jason Bunston**
 - Website: https://eliteconceptual.com
 - Email: jbunston@eliteconceptual.com
 - LinkedIn: https://www.linkedin.com/in/jasonbunston/
-- Book a 30-minute consulting call: https://calendar.app.google/6eEY9v4XAqnKiCJdA
+- My booking link (for the purposes of vetting if required): https://calendar.app.google/6eEY9v4XAqnKiCJdA
 
 For the full unredacted report (manufacturer or legitimate researchers),
 please reach out by email.
